@@ -196,7 +196,7 @@ autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
 baper = setting.ownername
-apiku = 'https://gourav.github.io/'
+apiku = 'https://𝙺𝚁𝙸𝚉 𝚂𝙴𝚁.github.io/'
 gc_wa_lu = '' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -1280,7 +1280,7 @@ if (autobio === false) return
     if (new Date() * 1 - settingstatus > 1000) {
       let _uptime = process.uptime() * 1000;
       let uptimer = clockString(_uptime);
-      await alpha.setStatus(`I'm GOURAV 🤖 | Runtime ${uptimer} ⏲️ | ${status} send .menu for more information `).catch((_) => _);
+      await alpha.setStatus(`I'm 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 🤖 | Runtime ${uptimer} ⏲️ | ${status} send .menu for more information `).catch((_) => _);
       settingstatus = new Date() * 1;
     }}
 		mess = {
@@ -1378,7 +1378,7 @@ key: {
 						"jpegThumbnail": fs.readFileSync(`image/${thumbnail}`) //Gambarnye
 					},
 					"title": 'Whatsapp bot', 
-					"description": "GOURAV BOT", 
+					"description": "𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 BOT", 
 					"currencyCode": "IDR",
 					"priceAmount1000": "60000000",
 					"retailerId": 'Whatsapp bot',
@@ -1404,7 +1404,7 @@ const bugtrol = {
 						"sellerJid": "917025770987@s.whatsapp.net",
 						"token": "AR5b5YFz2g4W5fYrjbeakPiI3/XxarATSeP+KLh+0FGwkw=="
 					}}}
-       const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "917025770987-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync(`image/${thumbnail}`), surface: 200, message: `Whatsapp Bot 〽️\nBy GOURAV `, orderTitle: 'gourav', sellerJid: '0@s.whatsapp.net'}},contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+       const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "917025770987-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync(`image/${thumbnail}`), surface: 200, message: `Whatsapp Bot 〽️\nBy 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 `, orderTitle: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁', sellerJid: '0@s.whatsapp.net'}},contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
         const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `${creator}`,jpegThumbnail: fs.readFileSync(`image/${thumbnail}`)}}}
         const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "917025770987-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":99999,"ptt": "true"}} } 
         const fgif = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "917025770987-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`${creator}`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `Whatsapp Bot 〽️\nBy ${ownername}`, 'jpegThumbnail': fs.readFileSync(`image/${thumbnail}`)}}}
@@ -2348,28 +2348,28 @@ let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
 ini_anu =`${ucapannya2}
 
-╭─❒ 「 Bot Info 」 
-├ Creator : http://ī.am/𝗚𝗼𝘂𝗿𝗮𝘃
-├ Powered  : @${ini_mark.split('@')[0]}
-├ Prefix :   ${prefix}
-├ Total hit : ${hitall}
-├ Hit today : ${hit_today.length}
-├ Speed : ${latensii.toFixed(4)} Second
-├ Hostname : ${os.hostname()}
-├ Platform : ${os.platform()}
-├ Runtime : ${kyun(runtime)}
-├ Battery : ${isBattre}
-╰❒ Charging : ${isCharge}
+╭─❒ 「 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 」 
+├ 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 : ᴋʀɪsʜɴᴀᴅᴀs
+├ 𝑃𝑜𝑤𝑒𝑟𝑒𝑑  : @${ini_mark.split('@')[0]}
+├ 𝑃𝑟𝑒𝑓𝑖𝑥 :   ${prefix}
+├ 𝑇𝑜𝑡𝑎𝑙 𝐻𝑖𝑡 : ${hitall}
+├ 𝐻𝑖𝑡 𝑇𝑜𝑑𝑎𝑦 : ${hit_today.length}
+├ 𝑆𝑝𝑒𝑒𝑑 : ${latensii.toFixed(4)} Second
+├ 𝐻𝑜𝑠𝑡 𝑁𝑎𝑚𝑒 : ${os.hostname()}
+├ 𝑃𝑙𝑎𝑡𝑓𝑜𝑟𝑚 : ${os.platform()}
+├ 𝑅𝑢𝑛𝑡𝑖𝑚𝑒 : ${kyun(runtime)}
+├ 𝐵𝑎𝑡𝑡𝑒𝑟𝑦 : ${isBattre}
+╰❒ 𝐶ℎ𝑎𝑟𝑔𝑖𝑛𝑔 : ${isCharge}
 
-╭─❒ 「 User Info 」 
-├ Name : GOURAV
-├ Bio : ${p1 ? `${p1.status}` : '-'}
-├ Nomor : @${sender.split('@')[0]}
-├ Me : ${mek.key.fromMe ? 'True' : 'False'}
-╰❒ Owner : ${isOwner ? 'True' : `False`}
+╭─❒ 「 𝐔𝐒𝐄𝐑 𝐈𝐍𝐅𝐎 」 
+├ 𝘕𝘢𝘮𝘦 : 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁
+├ 𝘉𝘪𝘰 : ${p1 ? `${p1.status}` : '-'}
+├ 𝘕𝘶𝘮𝘣𝘦𝘳 : @${sender.split('@')[0]}
+├ 𝘔𝘦 : ${mek.key.fromMe ? 'True' : 'False'}
+╰❒ 𝘖𝘸𝘯𝘦𝘳 : ${isOwner ? 'True' : `False`}
 `
 if(typemenu == 'document'){
-sendButDoc(from, ini_anu, `Bot is created by Gourav \n`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `Bot is created by 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 \n`, sender, koko, ini_mark)
 } 
 if(typemenu == 'troli'){
 sendTroli(allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii))
@@ -2406,7 +2406,7 @@ const btn1 = {
 }
 
 alpha.sendMessage(from,  btn1, MessageType.buttonsMessage,{
-        caption: 'GOURAV ©2k21',
+        caption: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 ©2k21',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2424,7 +2424,7 @@ if (!isOwner && !isCreator && !mek.key.fromMe) return reply(lang.onlyOwner())
 const listhades = ['document', 'troli', 'troli2', 'katalog', 'katalog2', 'list', 'location']
 listMsg = {
  buttonText: 'SET MENU',
- footerText: `© GOURAV `,
+ footerText: `© 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 `,
  description: ``,
  sections: [
                      {
@@ -2596,7 +2596,7 @@ buttons: buttonss,
 headerType: 1
 }
 alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: 'GOURAV ©2k21',
+        caption: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 ©2k21',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2814,7 +2814,7 @@ case 'bcgif':
 					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
 var buttonss = [
 {buttonId: 'donasi', buttonText:{displayText: 'ī.am'}, type: 1},
-{buttonId: 'sewabot', buttonText:{displayText: '𝗚𝗼𝘂𝗿𝗮𝘃'}, type: 1}
+{buttonId: 'sewabot', buttonText:{displayText: '𝘬𝘳𝘪𝘻'}, type: 1}
 ]
 
 buttonMessagee = {
@@ -2824,7 +2824,7 @@ buttons: buttonss,
 headerType: 1
 }
 alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: ' GOURAV ©2k21',
+        caption: ' 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 ©2k21',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -3149,7 +3149,7 @@ await limitAdd(sender, limit)
 				    var media_ = await alpha.downloadAndSaveMediaMessage(encmedia_)
 		            anu = args.join(' ').split('|')
 		            satu = anu[0] !== '' ? anu[0] : `BOT 🤖`
-		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `GOURAV`
+		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `𝙺𝚁𝙸𝚉 𝚂𝙴𝚁`
 		            require('./lib/fetcher.js').createExif(satu, dua)
 					require('./lib/fetcher.js').modStick(media_ , alpha, mek, from)
 					await limitAdd(sender, limit)
@@ -3421,7 +3421,7 @@ break
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 							const media = await alpha.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
-							exif.create('Created By', 'GOURAV', `stickwm_${sender}`)
+							exif.create('Created By', '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁', `stickwm_${sender}`)
 							//ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .input(media)
@@ -3448,7 +3448,7 @@ break
                     } else if ((isMedia && mek.message.videoMessage.seconds < 11 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.seconds < 11) && args.length == 0) {
                         const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
                         const media = await alpha.downloadAndSaveMediaMessage(encmedia)
-                        exif.create('Created By', 'GOURAV', `stickwm_${sender}`)
+                        exif.create('Created By', '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁', `stickwm_${sender}`)
                     //    ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .inputFormat(media.split('.')[1])
@@ -3511,7 +3511,7 @@ break
 					fs.unlinkSync(mediaa)
 					if (err) return reply('Yah gagal, coba ulangi ^_^')
 					buffer = fs.readFileSync(ran)
-					fakethumb(buffer,'by Gourav')
+					fakethumb(buffer,'by 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁')
 					fs.unlinkSync(ran)
 					})
 					await limitAdd(sender, limit)}
@@ -5458,7 +5458,7 @@ break
           for (let hui of banned) {
             teks += `│+  @${hui.split('@')[0]}\n`
           }
-          teks += `│+ Total : ${banned.length}\n╰──────「 *GOURAV BOT* 」────`
+          teks += `│+ Total : ${banned.length}\n╰──────「 *𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 BOT* 」────`
           alpha.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": [hui] } })
           break
  		case 'ban': case 'banned': case 'block':
@@ -5547,7 +5547,7 @@ buttons: buttonsos,
 headerType: 1
 }
 alpha.sendMessage(from,  butptonMessagee, MessageType.buttonsMessage,{
-        caption: 'GOURAV ©2k21',
+        caption: '© 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
